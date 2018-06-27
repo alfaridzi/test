@@ -67,5 +67,5 @@ xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 //because you passing parameter with arnold!
 //the function will check if the name is arnold?
 //if the name is arnold the function will return 'hey arnold'.
-//if you want result amy, you must to passing parameter with anything..
+//if you want result amy, you must to passing parameter with anything except arnold..
 //because the function always return 'hey amy' if the parameter not 'arnold'
