@@ -49,7 +49,7 @@ console.log(str);
 //not allowing someone to dynamically store and execute arbitrary JavaScript on your site
 //handling user input correctly.
 
-in node you can write:
+//in node you can write:
 app.get('/', function(req,res) {
 	
 res.writeHead(200, 'OK', {
@@ -67,4 +67,5 @@ xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 //because you passing parameter with arnold!
 //the function will check if the name is arnold?
 //if the name is arnold the function will return 'hey arnold'.
-//if you want result amy, you must to passing parameter with amy.
+//if you want result amy, you must to passing parameter with anything..
+//because the function always return 'hey amy' if the parameter not 'arnold'
